@@ -3123,7 +3123,7 @@ n=p.a
 m=J.a7(n)
 l=B.ch(m.i(n,"donators"))
 if(l==null)l=""
-u=B.ch(m.i(n,"expence"))
+u=B.ch(m.i(n,"expense"))
 if(u==null)u=""
 t=B.u2(m.i(n,"donators_last"))
 if(t==null)t=0
@@ -3149,7 +3149,7 @@ t.push(new A.lO(u.i(v,0),u.i(v,1),B.i6(J.cE(u.i(v,2)))))}this.f.at=t
 this.a9(new A.a8Z(this))},
 au(){this.aO()
 this.r2()},
-I(d,e){var x,w,v,u,t,s,r,q=this,p=null,o=E.afX(D.If,p,E.bF("Donation & Expence",p,p,p,p,p,p,p)),n=y.p,m=B.b([],n)
+I(d,e){var x,w,v,u,t,s,r,q=this,p=null,o=E.afX(D.If,p,E.bF("Donation & Expense",p,p,p,p,p,p,p)),n=y.p,m=B.b([],n)
 if(q.r)m.push(D.kH)
 x=q.x
 w=q.w
@@ -3527,7 +3527,7 @@ $1(d){var x=this.b
 return B.cn([x.wN("String","donators",C.I.lM(d,null)),x.wN("Int","donators_last",this.c.a),this.a.GU(d)],y.A)},
 $S:130}
 A.a8Y.prototype={
-$1(d){return B.cn([this.b.wN("String","expence",C.I.lM(d,null)),this.a.GV(d)],y.A)},
+$1(d){return B.cn([this.b.wN("String","expense",C.I.lM(d,null)),this.a.GV(d)],y.A)},
 $S:130}
 A.a8V.prototype={
 $2(d,e){return C.f.aj(B.eu(J.ag(e,2),null),B.eu(J.ag(d,2),null))},
@@ -3709,7 +3709,7 @@ D.Om=B.b(x([]),B.W("p<fp>"))
 D.CI=B.b(x([]),y.R)
 D.CH=B.b(x([]),y.J)
 D.Ig=new A.yU("Donation",null)
-D.Ih=new A.yU("Expence",null)
+D.Ih=new A.yU("Expense",null)
 D.co=B.b(x([D.Ig,D.Ih]),y.p)
 D.CE=B.b(x([]),y.V)
 D.aO=new B.D(855638016)
@@ -3792,4 +3792,4 @@ D.N4=new E.cl("rowsPerPageParent",y.O)
 D.NL=new A.Nv(null)})();(function staticFields(){$.ahh=null})();(function lazyInitializers(){var x=a.lazyFinal
 x($,"aEQ","aq3",()=>B.azs())
 x($,"aGy","aqW",()=>B.eU(0,3.141592653589793,y.i).eG(B.ee(F.bI)))})()}
-$__dart_deferred_initializers__["WxueXaXzw7C70MXktsI3by1lyDo="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["6BrrI7goz35r81JQuo6IDUb4qoU="] = $__dart_deferred_initializers__.current
